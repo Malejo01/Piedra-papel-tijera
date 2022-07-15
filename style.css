@@ -1,0 +1,134 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@200&family=Pacifico&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    
+}
+
+body {
+    background-color: #3F45AC;
+    font-family:sans-serif; 
+}
+
+header {
+    background-color: #e25b4d;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Pacifico';
+}
+
+footer {
+    background-color: #2B2B34;
+    padding: 10px;
+    color: #fff;
+    font-family: 'Arima', cursive;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+}
+
+header>h1 {
+    font-size: 40px;
+}
+
+.marcador {
+    text-align: center;
+    position: relative;
+    width: 200px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+    border: 3px solid #fff;
+    border-radius: 30px;
+    margin: 20px auto;
+    padding: 15px 20px;
+}
+
+.jugadores {
+    background-color: #e25b4d;
+    font-size: 18px;
+    
+    border: 2px solid #fff;
+    border-radius: 8px;
+    padding: 0px 2px;
+    font-family: 'Arima', cursive;
+}
+
+.usuario-contador{
+    position: absolute;
+    top: auto;
+    left: -40px;
+    height: 40%;
+    width: 40%;
+}
+
+.computadora-contador{
+    position: absolute;
+    top: auto;
+    right: -40px;
+    height: 40%;
+    width: 40%;
+}
+
+#marc-usuario, #marc-computadora {
+    padding: 5px;
+    font-size: 30px;
+}
+
+.resultados {
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Arima', cursive;
+    font-weight: 700;
+}
+
+.opciones {
+    text-align: center;
+}
+
+.eleccion {
+    border: 3px solid #000;
+    border-radius: 50%;
+    padding: 20px;
+    margin: 10px;
+    width: 100px;
+    display: inline-block;
+    background-color: #FAFAFC;
+    transition: all 0.5s ease;
+}
+
+.eleccion:hover{
+    border: 3px solid #fff;
+    border-radius: 50%;
+    padding: 20px;
+    margin: 10px;
+    width: 100px;
+    display: inline-block;
+    background-color: #e25b4d;
+}
+
+.frases {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Arima', cursive;
+    font-weight: 700;
+}
+
+.verde {
+    background-color: green;
+}
+
+.rojo {
+    background-color: red;
+}
+.amarillo {
+    background-color: yellow;
+}
